@@ -1,0 +1,136 @@
+.titulo_1{
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+       }
+       flex-wrap: wrap;
+      
+    
+}
+p{
+    color: black;
+    text-align: left;
+    font-size: 10px;
+}
+.parrafo_color{
+    color: black;
+}
+.card{
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    border: 5px solid;
+    padding: 25px;
+    margin: 20px;
+    background-color:#432918;
+
+}
+.card_img{
+width: 45%;
+}
+header{
+    display: flex;
+    height: 150px;
+    background-color: #253419;
+    justify-content: space-between;
+    align-items: center;
+    border: 7px solid;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+footer{
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+       }
+    background-color: #253419;
+    border: 7px solid;
+}
+.contedor_limite{
+    max-width: 800px;
+
+}
+.titulomate{
+    bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+       }
+    font-size: 50px;
+    margin: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    }
+.titulofoter{
+    .bebas-neue-regular 
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+    text-align: center;
+    
+}
+.links{
+    bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex;
+       }
+       
+}
+nav li{
+    display: inline;
+    display: flex;
+}
+nav li :hover{
+    color: white;  
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.links1{
+    bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        display: flex;
+       }
+    font-size: 20px;
+    color: black;
+    text-decoration: underline;
+    display: flex;
+    margin: 0 auto;
+}
+.contenedor_limite2{
+    background-color: #253419;
+    max-width: 740px;
+    margin: 0 auto;
+    
+}
+.padre{
+  background-color: #253419;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+ display: flex;
+}
+
+@media screen and (max-width:700px) {
+    body{
+        background-color: #432918;
+    }
+}
+body{
+    background-color: #253419;
+}
+.nav_li:hover {
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    flex-wrap: wrap;
+}
